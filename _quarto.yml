@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sample presentation"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - posts/Githubpages_test_presentation.qmd
+
+format:
+    revealjs:
+        navigation-mode: vertical
+        slide-level: 2
+        date: today
+        date-format: dddd MMM D, YYYY
+        chalkboard: true
+        progress: true
+        transition: slide
+        background-transition: fade
+        auto-stretch: True
+        css: styles.css
+        toc: true
+
+
+
