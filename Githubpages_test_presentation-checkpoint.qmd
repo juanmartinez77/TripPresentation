@@ -1,0 +1,30 @@
+---
+format:
+  revealjs:
+    navigation-mode: vertical
+    slide-level: 2
+    date: today
+    date-format: 'dddd MMM D, YYYY'
+    chalkboard: true
+    progress: true
+    transition: slide
+    background-transition: fade
+    auto-stretch: true
+controls: true
+controls-layout: bottom-right
+jupyter: python3
+title: Quarto pub test
+toc: true
+---
+
+# Cool code graph
+
+```{python}
+import plotly.express as px
+df = px.data.iris()
+fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species",
+                 size='petal_length', hover_data=['petal_width'])
+fig.show()
+```
+
+

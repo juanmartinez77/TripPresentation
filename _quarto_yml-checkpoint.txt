@@ -1,0 +1,21 @@
+project:
+    type: website
+    output-dir: docs
+
+website: 
+
+format: 
+    revealjs:
+        navigation-mode: vertical
+        slide-level: 2
+        date: today
+        date-format: dddd MMM D, YYYY
+        chalkboard: true
+        progress: true
+        transition: slide
+        background-transition: fade
+        auto-stretch: True
+
+
+
+
